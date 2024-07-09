@@ -1,0 +1,518 @@
+body{
+    margin: 0;
+}
+.head{
+    width: 100%;
+    height: 64px;
+    background-color:white;
+    
+}
+.right{
+    width: 23%;
+    height: 64px;
+    background-color: white;
+    float: left;
+}
+.mid{
+    width: 52.2%;
+    height: 64px;
+    background-color: white;
+    float: left;
+}
+.left{
+    width: 23%;
+    height: 64px;
+    background-color: white;
+    float: left;
+    margin-left: 17px;
+}
+.logo{
+    width: 120px;
+    height: 31px;
+    background-color: white;
+    float: left;
+    color: rgb(0, 162, 100);
+    font-family: arial;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 16px;
+    letter-spacing: -1px;
+}
+.right1{
+    width: 43%;
+    height: 37px;
+    background-color: white;
+    float: left;
+    font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 22px;
+}
+
+.right2{
+    width: 55%;
+    height: 59px;
+    background-color:white;
+    float: left;
+
+}
+.button_icon{
+    
+    height: 100%;
+    width: 120px;
+}
+
+.right2_button{
+    margin-top: 11px;
+    margin-left: 1px;
+    height: 43px;
+    width: 116px;
+    background-color: black;
+    border-radius: 6px;
+    color: rgb(127, 102, 102);
+    
+}
+.inside_button{
+   
+    width: 102px;
+    height: 31px;
+}
+.inside_button_left{
+    width: 25%;
+    float: left;
+    padding-top: 6px;
+}
+.inside_button_right{
+    float: left;
+    color: white;
+    padding-top: 9px;
+    font-size: 15px;
+    font-weight: 400;
+    margin-left: 8px;
+}
+.logo img{
+    width: 120;
+    height: 36;
+    fill: none;
+
+
+}
+hr{
+    border-top: 1px solid white;
+    margin-top: 0px;
+}
+
+p{
+    color: #00a264;
+    font-size: 48px;
+    line-height: 22px;
+    margin-left: 238px;
+    font-weight: 600;
+    font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+}
+.rit{
+   width: 33.33%; 
+   float: left;
+   
+   
+}
+.midl{
+    width: 31.33%;
+    float: left;
+   background-color: white;
+
+}
+.lft{
+    width: 30.33%;
+    float: right;
+    
+}
+.rit img{
+    height: 262px;
+    padding-top: 42px;
+    
+}
+.lft img{
+    height: 262px;
+    padding-top: 38px;
+}
+tr,td{
+    border: 1px solid black;
+    height: 38px;
+    border-radius: 1px;
+    width: 315px;
+    text-align: center;
+}
+blockquote{
+    font-size: 12px;
+    line-height: 16px;
+    color: black;
+    text-align: center;
+   
+    font-weight: 400;
+    margin-right: 7px;
+    margin-left: 7px;
+    margin-bottom: -3px;
+    margin-top: 9px;
+}
+.fa-brands fa-google .fa-brands fa-facebook{
+    size: 1px;
+}
+.hr-or {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    color: #757575;
+    font-size: 11px;
+    position: relative;
+    top: 0;
+}
+.hr-or::before,
+.hr-or::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #000;
+}
+.hr-or:not(:empty)::before {
+    margin-right: .25em;
+}
+.hr-or:not(:empty)::after {
+    margin-left: .25em;
+}
+form{
+    font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+}
+input{
+    border: 1px solid black;
+    height: 38px;
+    width: 315px;
+    margin-left: 11px;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+#submit{
+    border: 1px solid black;
+    height: 43px;
+    width: 321px;
+    margin-left: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 16px;
+
+}
+label{
+    font-size: 13px;
+    padding-left: 13px;
+}
+.body2 {
+    float: left;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 69px;
+    font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+    font-size :15px;
+font-stretch :100%;
+height: 200px;
+}
+.body2_inside{
+    height: 150px;
+    width: 100%;
+    padding-top: 48px;
+}
+.logo1 {
+    background-color: white;
+    float: left;
+    height: 150px;
+    width: 25%;
+}
+.logo1 img{
+    height: 70px;
+    width: 70px;
+
+}
+
+.logo2{
+    background-color: white;
+    float: left;
+    height: 150px;
+    width: 25%;
+}
+.logo2 img{
+    height: 70px;
+    width: 70px;
+
+}
+.logo3{
+    background-color: white;
+    float: left;
+    height: 150px;
+    width: 25%;
+}
+.logo3 img{
+    height: 70px;
+    width: 70px;
+
+}
+ .logo4{
+    background-color: white;
+    float: left;
+    height: 150px;
+    width: 25%;
+}
+.logo4 img{
+    height: 70px;
+    width: 70px;
+
+}
+.body3{
+    float: left;
+    background-color: #f0f0f0;
+    width: 100%;
+    text-align: center;
+    margin-top: 69px;
+    font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+    font-size :15px;
+font-stretch :100%;
+height: 162px;
+}
+.body4{
+    float: left;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 14px;
+    font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+    font-size :15px;
+font-stretch :100%;
+height: 200px;
+}
+.body4_1{
+    width: 25%;
+    height: 31px;
+    background-color: white;
+    float: left;
+    color: rgb(0, 162, 100);
+    font-family: arial;
+    font-size: 22px;
+    font-weight: 800;
+    margin-top: 27px;
+    letter-spacing: -1px;
+}
+.body4_1 img{
+    width: 120;
+    height: 36;
+    fill: none;
+   
+}
+.body4_2{
+    width: 20%;
+    height: 206px;
+float: left;
+line-height: 20px;
+background-color: white;
+}
+.body4_3{
+    width: 22%;
+    height: 206px;
+    float: left;
+    line-height: 20px;
+    background-color: white;
+    margin-left: 13px;
+}
+.body4_4{
+    width: 24%;
+    height: 206px;
+    float: left;
+    line-height: 20px;
+    background-color: white;
+    margin-left: 13px;
+}
+.body4_5{
+    width: 20%;
+    height: 206px;
+    float: left;
+    line-height: 20px;
+    background-color: white;
+    margin-left: 13px;
+}
+h4{
+    margin-bottom: 5px;
+    font-family: var(--gd-product-theme-body-01-font-family);
+}
+.body4_o{
+    background-color: white;
+    float: left;
+   width: 65%;
+   height: 206px; 
+}
+.footer{
+    width: 100%;
+    height: 165px;
+    background-color: white;
+    float: left;
+}
+.footer1{
+    width: 100%;
+    height: 81px;
+    background-color: white;
+    float: left;
+}
+.footer1_body{
+    width: 100%;
+    height: 81px;
+    background-color: white;
+    float: left;
+}
+.downlod{
+    width: 33%;
+    height: 81px;
+    background-color: white;
+    float: left;
+}
+.downlod1{
+    width: 51%;
+    height: 26px;
+    background-color: white;
+    float: left;
+    margin-left: 89px;
+    margin-top: 37px;
+    font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+}
+.downlod2{
+    width: 21%;
+    height: 37px;
+    background-color: white;
+    float: left;
+    margin-left: 0px;
+    margin-top: 32px;
+}
+.d1{
+height: 37px;
+width: 50%;
+float: left;
+filter: invert(1);
+}
+.d2{
+    height: 37px;
+    float: left;
+    width: 50%;
+    filter: invert(1);
+}
+.apps{
+    width: 33%;
+    height: 81px;
+    background-color: white;
+    float: left;
+}
+.app_body{
+    float: left;
+    width: 327px;
+    height: 50px;
+    background-color: white;
+    margin-left: 7px;
+    margin-top: 18px;
+
+}
+.app3{
+    float: left;
+    background-color: white;
+    height: 43px;
+    width: 14%;
+    margin-left: 3px;   
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.app4{
+    float: left;
+    background-color: white;
+    height: 43px;
+    width: 14%;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.app5{
+    float: left;
+    background-color: white;
+    height: 43px;
+    width: 14%;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.app6{
+    float: left;
+    background-color: white;
+    height: 43px;
+    width: 14%;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.app7{
+    float: left;
+    background-color: white;
+    height: 43px;
+    width: 14%;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.app8{
+    float: left;
+    background-color: white;
+    height: 43px;
+    width: 14%;
+    margin-left: 3px;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+.country{
+    width: 33%;
+    height: 81px;
+    background-color: white;
+    float: left;
+}
+.country-body{
+    width: 244px;
+    height: 45px;
+    float: left;
+    
+    margin-left: 54px;
+    margin-top: 21px;
+   
+}
+.country-body-left{
+    width: 41px;
+    height: 31px;
+    float: left;
+   
+    font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+    font-size: 15px;
+    font-weight: 400px;
+    padding-left: 24px;
+    padding-top: 14px;
+}
+.country-body-option{
+    border: 1px solid black;
+    height: 38px;
+    width: 273px;
+    margin-left: -29px;
+    border-radius: 6px;
+    margin-top: 7px;
+}
+.footer2{
+    float: left;
+    color: rgb(0, 0, 0); 
+    font-weight: 400; 
+     font-family: "Glassdoor Sans", "Glassdoor Sans Initial", sans-serif;
+      font-size: 15px;
+      width: 100%;
+      line-height: 28px;
+    margin-top: 15px; 
+}
